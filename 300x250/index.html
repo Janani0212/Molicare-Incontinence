@@ -21,6 +21,7 @@
     <div id="image5" class="absolute top-0 right-0 h-full image5"></div>
 
     <div id="image6" class="absolute top-0 right-0 h-full image6"></div>
+    <div id="image9" class="absolute top-0 right-0 h-full image9"></div>
 
     <div id="image7" class="absolute top-0 right-0 h-full image7"></div>
     <div id="image8" class="absolute top-0 right-0 h-full image8"></div>
@@ -47,7 +48,8 @@
       .to("#image5", {opacity:0}, "+=2")
 
       .from("#image6", {opacity:0, scale:0.75, ease:"in", duration:0.75}, "+=0.05")
-      .to("#image6", {opacity:0, scale: 1}, "+=1")
+      .from("#image9", {opacity:0, scale:0.75, ease:"in", duration:0.75}, "+=0.05")
+      .to("#image6, #image9", {opacity:0, scale: 1}, "+=1")
 
       .from("#image7", {opacity:0, scale:1.25, ease:"in", duration:0.25},"+=0.05")
       .from("#image8", {opacity:0, scale:0.75, ease:"in", duration:0.5},"<");

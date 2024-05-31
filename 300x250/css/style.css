@@ -85,3 +85,9 @@
   height: 250px;
   width: 300px;
 }
+.image9 {
+  background: url('../img/image9_2x.png') center no-repeat;
+  background-size: 100% 100%;
+  height: 250px;
+  width: 300px;
+}
